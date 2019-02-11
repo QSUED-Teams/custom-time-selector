@@ -48,3 +48,4 @@ getInfo: function;//获取选择的值的函数
 
 # demo
 
+https://qsued-teams.github.io/custom-time-selector/dist/index.html#/index
