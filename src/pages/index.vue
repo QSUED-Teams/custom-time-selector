@@ -131,25 +131,26 @@ export default {
   .g-form-label-box{
     display: flex;
     align-items: center;
-    margin: .32rem 0;
+    width: 50%;
+    margin: 32px auto;
     flex-wrap: wrap;
     .g-label{
-      width: 1.7rem;
-      line-height: .4rem;
-      @include sc(.28rem,#686868);
+      width: 200px;
+      line-height: 40px;
+      @include sc(28px,#686868);
       text-align: right;
-      margin-right: .1rem;
+      margin-right: 10px;
       font-weight: 700;
     }
     input{
       flex-grow: 1;
-      line-height: .56rem;
-      border: .02rem solid #bbb;
-      padding: 0 .2rem;
-      @include sc(.28rem,#686868);
-      border-radius: .04rem;
+      line-height: 56px;
+      border: 2px solid #bbb;
+      padding: 0 20px;
+      @include sc(28px,#686868);
+      border-radius: 4px;
       &::placeholder{
-        @include sc(.28rem,#BBBBBB);
+        @include sc(28px,#BBBBBB);
       }
     }
   }
