@@ -22,8 +22,41 @@ optionArray: Array;//选项数组,需要进行选择的选项
                 name: 'nation'
               },
     ])
+    时间选择器输入值参照：
+    options2: [
+            {
+              range: [Number(new Date().format('yyyy')), Number(new Date().format('yyyy')) + 1],
+              unit: '',
+              name: 'year'
+            },
+            {
+              range: [1, 12],
+              unit: '',
+              name: 'month'
+            },
+            {
+              range: [1, 31],
+              unit: '',
+              name: 'date'
+            },
+            {
+              range: ['上午', '下午'],
+              unit: '',
+              name: 'halfDay'
+            },
+            {
+              range: [0, 23],
+              unit: '',
+              name: 'hour'
+            },
+            {
+              range: [0, 59],
+              unit: '',
+              name: 'minute'
+            },
+          ]
     
-initial: Array;//默认值数组,选择器打开时默认选择的值；注意需与选项数组(optionArray)的选项位置一致
+initial: Array;//单向显示数组,选择器打开时默认选择的值；注意需与选项数组(optionArray)的选项位置一致
 
     (example: options2:[
               {
